@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "network-tracking"
+version = "0.1.0"
+description = ""
+authors = ["Sam Cleland"]
+license = "None"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+dpkt = "^1.9.7"
+"sweet.socket" = "^0.0.0"
+pygeoip = "^0.3.2"
+pyshark = "^0.4.5"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
