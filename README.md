@@ -13,15 +13,15 @@ This project requires that Tshark, https://tshark.dev/, be installed. It also re
 
 This project requires the us of poetry dependency management, https://python-poetry.org/. To initialise the environment use 
 
-'''bash
+'
 poetry init
-'''
+'
 
 and then run the script using
 
-'''bash
+'
 poetry run ip_geo_conversion.py
-'''
+'
 
 There are variables in the script that need to be updated before runing. These are, home IP address, user, port name.
 
