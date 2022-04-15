@@ -12,13 +12,17 @@ This project is based on the article, https://medium.com/vinsloev-academy/python
 This project requires that Tshark, https://tshark.dev/, be installed. It also requires that the GeoLiteCity database be available in the root folder, https://github.com/mbcc2006/GeoLiteCity-data.
 
 This project requires the us of poetry dependency management, https://python-poetry.org/. To initialise the environment use 
+
 '''bash
 poetry init
 '''
+
 and then run the script using
+
 '''bash
 poetry run ip_geo_conversion.py
 '''
+
 There are variables in the script that need to be updated before runing. These are, home IP address, user, port name.
 
 ## License
